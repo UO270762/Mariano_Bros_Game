@@ -3,7 +3,7 @@
 </p>
 
 <section align="center">
-<pre>
+<p>
 Mariano bros classic es un acade clasico inspirado en el Super Mario Bros 3, contaremos con tres niveles
 
 Las mecánicas del juego son las siguiente:
@@ -42,7 +42,7 @@ El máximo de puntos que se pueden obtener son 500 puntos si el jugador acaba el
 <h2>
 -Como desplegar el juego-
 </h2>
-<pre>
+<p>
 El juego esta desarrollado en C++ usando la librería grafica SDL2 (Simple DirectMedia Layer) versión win32.
 
 El entorno de desarrollo elegido es Visual Studio Community versión 2019 con los paquetes de desarrollo de escritorio C++ y .Net.
@@ -53,6 +53,6 @@ Además desde Vinculador -> General -> Directorio de bibliotecas adicionales y a
 También desde Vinculador -> Entrada -> Dependencias adicionales, añadimos la siguiente línea que es una referencia a las librearias que necesita: opengl32.lib; SDL2.lib; SDL2main.lib; SDL2_image.lib; SDL2_ttf.lib;  SDL2_mixer.lib
 
 Una vez configurado el proyecto se puede ejecutar en modo Debug x86.
-</pre>
+</p>
 <img src="vista_juego.JPG">
 </section>
