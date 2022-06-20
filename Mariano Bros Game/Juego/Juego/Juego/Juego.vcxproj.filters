@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Layers">
+      <UniqueIdentifier>{f3427eb8-88f4-4f2a-8986-0ea4c0677efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Layers">
+      <UniqueIdentifier>{39fc8fe5-18f4-4bba-867f-f09effbe7262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Actores">
+      <UniqueIdentifier>{b383f5e7-f215-482a-82f5-ca71221b08eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Actores">
+      <UniqueIdentifier>{e7a83afb-01f8-405d-aeef-02114c612f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Actores\Enemigos">
+      <UniqueIdentifier>{9c4d1cf1-7299-4127-9cea-c029c8bfcc9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Actores\Enemigos">
+      <UniqueIdentifier>{5bbb3be9-f64f-485d-b6dd-afc121fb90fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Archivos de origen\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLayer.cpp">
+      <Filter>Archivos de origen\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Archivos de origen\Actores</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Archivos de origen\Actores</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Archivos de origen\Actores</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Archivos de origen\Actores</Filter>
+    </ClCompile>
+    <ClCompile Include="Space.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySimple.cpp">
+      <Filter>Archivos de origen\Actores\Enemigos</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyEspecial.cpp">
+      <Filter>Archivos de origen\Actores\Enemigos</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyVidaExtra.cpp">
+      <Filter>Archivos de origen\Actores\Enemigos</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuLayer.cpp">
+      <Filter>Archivos de origen\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="Moneda.cpp">
+      <Filter>Archivos de origen\Actores</Filter>
+    </ClCompile>
+    <ClCompile Include="PowBlock.cpp">
+      <Filter>Archivos de origen\Actores</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalLayer.cpp">
+      <Filter>Archivos de origen\Layers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Archivos de encabezado\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLayer.h">
+      <Filter>Archivos de encabezado\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Archivos de encabezado\Actores</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Archivos de encabezado\Actores</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Archivos de encabezado\Actores</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Archivos de encabezado\Actores</Filter>
+    </ClInclude>
+    <ClInclude Include="Space.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySimple.h">
+      <Filter>Archivos de encabezado\Actores\Enemigos</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyEspecial.h">
+      <Filter>Archivos de encabezado\Actores\Enemigos</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyVidaExtra.h">
+      <Filter>Archivos de encabezado\Actores\Enemigos</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuLayer.h">
+      <Filter>Archivos de encabezado\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="Moneda.h">
+      <Filter>Archivos de encabezado\Actores</Filter>
+    </ClInclude>
+    <ClInclude Include="PowBlock.h">
+      <Filter>Archivos de encabezado\Actores</Filter>
+    </ClInclude>
+    <ClInclude Include="FinalLayer.h">
+      <Filter>Archivos de encabezado\Layers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
