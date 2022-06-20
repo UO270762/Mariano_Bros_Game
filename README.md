@@ -8,34 +8,50 @@ Mariano bros classic es un acade clasico inspirado en el Super Mario Bros 3, con
 
 Las mecánicas del juego son las siguiente:
 Para atacar a los enemigos tendremos que golpear por debajo a la plataforma donde se encuentran, existen tres tipos de enemigos:
+</p>
+<p>
 Koopa -> Muere con un solo golpe a la plataforma
+</p>
+<p>
 Cangrejo -> Con un golpe a la plataforma lo tumbaremos, si después de un tiempo tumbado 
             no lo golpeamos directamente este volverá a moverse, si lo matamos nos da un punto de vida en cambio sí nos golpea moviéndose nos quita un punto de vida.
+</p>
+<p>
 Hielo -> Solo puede ser eliminado por el jugador al activar el POW, no quita
             vida al chocar con él, pero si ralentiza al jugador y le limita el salto. 
 Al comenzar el nivel algunos enemigos se generarán en la carga de mapa después de pasado un tiempo más enemigo se irán generando cada un tiempo determinado hasta que no queden más por generar.
+</p>
 
+<p>
 Ademas apareceran monedas que nos dan puntuacion y el bloque especial POW que al activarlo 
 da un golpe a todos los enemigos en pantalla.
-
+</p>
+<p>
 Los controles mediante teclado son los siguientes:
-
+</p>
+<p>
 Tecla A: mover al jugador a la izquierda 
+</p>
+<p>
 Tecla D: mueve al jugador a la derecha. 
+</p>
+<p>
 Tecla W: salto 
-
+</p>
+<p>
 (Controles en la pantalla de menu y final)
 Tecla Espacio: en las pantallas con botón (menú y final) lo activa (También se puede activar ese botón con el click izquierdo del ratón) 
-
+</p>
+<p>
 Sistema de Puntuacion:
 La puntuación final es la acumulada de la obtenida en cada nivel, esta se calcula: 
 Cada vida con las que el jugador acaba vale 50 puntos.
 Cada moneda obtenida vale 5 puntos.
-
+</p>
+<p>
 El tiempo también computa para la puntuación de la siguiente manera. 
 El máximo de puntos que se pueden obtener son 500 puntos si el jugador acaba el nivel antes de los 2 minutos (el tiempo que se tarda en generar todos los enemigos). De esos 500 se irán restando 50 puntos por cada 10 segundos que el jugador se pase de los 2 minutos en acabar el nivel. 
-</pre>
-
+</p>
 </section>
 
 <section align="center">
